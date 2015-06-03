@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.canvastext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B5FA1"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Matrix" />
+
+    <com.example.canvastext.CanvasView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:bordercolor="#D35246"
+        app:strokeWidth="2dp"
+        app:src="@drawable/icon_60pt"
+        app:type="circle" />
+
+    <com.example.canvastext.CanvasView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:borderRadius="15dp"
+        app:src="@drawable/icon_60pt"
+        app:type="round" />
+
+    <com.example.canvastext.CanvasView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:borderRadius="30dp"
+        app:src="@drawable/icon_60pt"
+        app:type="round" />
+
+</LinearLayout>
